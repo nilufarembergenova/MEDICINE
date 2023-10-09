@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.title {
+  max-width: 1120px;
+  min-height: 804px;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-top: 210px;
+  margin-bottom: 130px;
+}
+
+.check_our {
+  max-width: 1120px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.check_our h1 {
+  color: #000000;
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.Disease_box {
+  display: flex;
+  background-color: #FFFFFF;
+  gap: 30px;
+  height: 512px;
+  max-width: 1120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  height: 512px;
+  border-radius: 20px;
+  background-color: #FFF;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.card h2 {
+  color: #000;
+  font-family: 'Mulish', sans-serif;
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-right: 66px;
+  margin-left: 33px;
+  margin-top: 21px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #7D7987;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-right: 51px;
+  margin-left: 33px;
+  margin-bottom: 25px;
+}
+
+.card span {
+  color: #4089ED;
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-left: 33px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 69px;
+  margin-left: 128px;
+  color: #458FF6;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  text-decoration: none;
+  border-radius: 55px;
+  padding: 3px 68px 5px 66px;
+}
+
+.btn a {
+  display: inline-block;
+  margin-top: 69px;
+  margin-left: 255px;
+  color: #458FF6;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  text-decoration: none;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  padding: 3px 68px 5px 66px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
